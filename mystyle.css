@@ -39,7 +39,7 @@ hr {
   }
 
   .bg{
-    background-image: url('../../assets/images/Trusted-By-Bg.jpg');
+    background-image: url('images/Trusted-By-Bg.jpg');
     background-size: cover;
 }
 
@@ -55,7 +55,7 @@ hr {
 }
 	
 .card0-body{
-    background-image: url('../../assets/images/Header-image.png');
+    background-image: url('images/Header-image.png');
     background-size: cover;
     height: 530px;
 }
@@ -89,7 +89,7 @@ hr {
     height: 353px;
     color: #ffff;
     background-size: 1142px 352px;
-    background-image: url("../../assets//images/CTA-image.png");
+    background-image: url("images/CTA-image.png");
 }
 .btn-success {
     color: #fff;
