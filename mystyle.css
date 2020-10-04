@@ -170,4 +170,40 @@
     width: 18.5rem;
     margin-left: -1em;
 }
+.container-fluid{
+    display: none;
 }
+.nav-desktop .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 95%);
+    border-color: rgb(0 0 0 / 96%);
+}
+}
+
+@media only screen and (max-width: 768px) {
+   .nav-desktop{
+       display:none;
+   }
+   .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 95%);
+    border-color: rgb(0 0 0 / 96%);
+}
+   
+}
+  
